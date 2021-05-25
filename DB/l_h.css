@@ -1,0 +1,162 @@
+*{
+	margin: 0%;
+	padding: 0%;
+}
+body
+{
+	background:url(i9.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	width: auto;
+
+}
+
+
+.head
+{
+	text-align:center;
+	font-size: 50px;
+    color: black;
+    letter-spacing: 3px;
+    text-shadow: 0 0 5px red;
+	height:90px;
+	line-height: 90px;
+	font-size: 36px;
+	font-weight: bold;
+}
+.marquee {
+ 
+    font-size: 50px;
+    color: black;
+    letter-spacing: 3px;
+    text-shadow: 0 0 6px #48D1CC, 0 0 5px #00FFFF;
+    white-space: nowrap;
+    -webkit-animation: scroll-left 10s linear infinite;
+}
+#divMenu, ul, li, li li {
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+ 
+
+#divMenu {
+
+    width: 150px;
+
+    height: 50px;
+
+}
+
+ 
+
+#divMenu ul
+
+{
+
+     line-height: 25px;
+
+}
+
+ 
+
+    #divMenu li {
+
+        list-style: none;
+
+        position: relative;
+
+        background: #274fb3;
+
+    }
+
+ 
+
+        #divMenu li li {
+
+            list-style: none;
+
+            position: relative;
+
+            background: #274fb3;
+
+            left: 148px;
+
+            top: -27px;
+
+        }
+
+ 
+
+ 
+
+    #divMenu ul li a {
+
+        width: 148px;
+
+        height: 25px;
+
+        display: block;
+
+        text-decoration: none;
+
+        text-align: center;
+
+        font-family: Georgia,'Times New Roman',serif;
+
+        color:#ffffff;
+
+        border:1px solid #eee;
+
+    }
+
+ 
+
+    #divMenu ul ul {
+
+        position: absolute;
+
+        visibility: hidden;
+
+        top: 27px;
+
+    }
+
+ 
+
+    #divMenu ul li:hover ul {
+
+        visibility: visible;
+
+    }
+
+ 
+
+    #divMenu li:hover {
+
+        background-color: black;
+
+    }
+
+ 
+
+    #divMenu ul li:hover ul li a:hover {
+
+        background-color: black;
+
+    }
+
+ 
+
+    #divMenu a:hover {
+
+        font-weight: bold;
+
+    }
+

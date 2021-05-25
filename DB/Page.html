@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<marquee width="100%" ><h2 class="head">IUBAT Course Offering System</h2></marquee>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<title>Course Offering</title>
+	<link rel="stylesheet" type="text/css" href="l_h.css">
+	
+	
+	<div id="divMenu" style="margin-left: 20px">
+
+    <ul>
+
+        <li><a href="#">Insert</a>
+
+        <ul>
+
+            <li><a href="dept_in.php">Department</a></li>
+
+            <li><a href="fac_in.php">Faculty</a></li>
+
+            <li><a href="course_in.php">Course</a></li>
+
+            <li><a href="student_in.php">Student</a></li>
+
+        </ul>
+
+            </li>
+
+        
+
+         <li><a href="#">Delete/Update</a>
+
+                <ul>
+
+            
+            <li><a href="department.php">Department</a></li>
+
+            <li><a href="faculty.php">Faculty</a></li>
+
+            <li><a href="course.php">Course</a></li>
+
+            <li><a href="student.php">Student</a></li>
+
+        </ul></li>
+
+         
+
+        	 <li><a href="#">PDF</a>
+
+                <ul>
+
+            <li><a href="dept_pdf.php">Department</a></li>
+
+            <li><a href="faculty_pdf.php">Faculty</a></li>
+
+            <li><a href="course_pdf.php">Course</a></li>
+
+            <li><a href="student_pdf.php">Student</a></li>
+
+        </ul></li>
+
+
+        <li><a href="view.php">View All</a></li>
+        <li><a href="search.php">Search</a></li>
+
+        
+        	
+
+
+        </a></li>
+
+        
+
+    </ul>
+<br><br>
+
+   
+
+    </div>
+
+    
+
+<body>
+		
+		<center>
+<div class="w3-content w3-section" style="width:800px">
+  <img class="mySlides" src="i1.jpg" style="width:100%">
+  <img class="mySlides" src="i3.jpg" style="width:100%">
+  <img class="mySlides" src="i6.jpg" style="width:100%">
+     <img class="mySlides" src="i12.jpg" style="width:100%">
+      <img class="mySlides" src="i2.jpg" style="width:100%">
+</div>
+</center>
+	
+ </body>
+ <script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+</html>
+
+
+
+
